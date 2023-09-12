@@ -7,7 +7,7 @@ const Footer = () => {
     
     return (
         <>
-            <footer className="bg-dark ">
+            <footer className=" bg-dark ">
                 <div className="container">
                     <div className="row">
                         <div className="co-12 col-lg-10 d-flex align-item-center justify-content-lg-center  mx-auto">
@@ -34,7 +34,7 @@ const Footer = () => {
                                  </ul>
                                 </div>
                                  <div className="line "></div>
-                                 <p className="text-center ">Copyright © 2021 : All right reserved</p>
+                                 <p className="text-center ">Copyright © 2023 : All right reserved</p>
                                 </div>
                             </div>
                         </div>
