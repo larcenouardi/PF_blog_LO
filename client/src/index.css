@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(13, 13, 14);
+  background-color: rgb(25, 28, 32);
+  background-color: #f1f5fd;
+  background-attachment: fixed;
+  
+}
+::selection{
+  background-color: #173161;
+  color: rgb(245, 235, 235);
+}
+.navbar{
+  background-color: #d8e7e6;
+  
+ }
+
+p{
+  margin-bottom: 0;
+}
+.img_box{
+  width: 100%;
+ 
+}
+.img_box img{
+  width: 100%;
+}
+.card img{
+  background-color: #e73a51;
+
+}
+
+a{
+  text-decoration: none;
+  color: #173161;
+}
+.tags{
+  font-size: 1rem;
+}
+/* Post card style */
+
+.card_img{
+  height: 250px;
+  margin-bottom: 10px;
+}
+.card_img img{
+  height: 100%;
+}
+/*------------------------ DASHBOARD DESIGH ----------------- */
+.dash_info{
+  background-color: #49035a;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.dash_info h1{
+  font-size: 3rem;
+  font-family: Times, serif;
+  font-weight: 900;
+}
+.dash_img{
+  width: 100%;
+  
+}
+.dash_img img{
+  width: 100%;
+  animation: up-down 3s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0%{
+      transform: translateY(8px);
+  }
+  100%{
+      transform: translateY(-8%);
+  }
+}
+@keyframes up-down{
+  0%{
+      transform: translateY(10px);
+  }
+  100%{
+      transform: translateY(-10%);
+  }
+}
+.dash_box .create_Post{
+  width: 100%;
+  height: 100px;
+  background-color: #e73a51;
+  color: white;
+  margin-top: 20px;
+  transition: all .5s ease-in-out;
+  
+}
+.dash_box .create_Post:hover{
+  background-color: #8f2434;
+  
+  box-shadow: white 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.dash_box .edit_Post{
+  width: 100%;
+  height: 100px;
+  background-color: cadetblue;
+  margin-top: 20px;
+  transition: all .5s ease-in-out;
+  color: white;
+}
+.dash_box .edit_Post:hover{
+  background-color: rgb(28, 80, 82);
+ 
+  box-shadow: white 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.dash_box .view_Post{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(52, 99, 230);
+  color: white;
+  margin-top: 20px;
+  transition: all .5s ease-in-out;
+}
+
+.dash_box .view_Post:hover{
+  background-color: rgb(23, 51, 131);
+  box-shadow: white 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.dash_box .comment_Post{
+  width: 100%;
+  height: 100px;
+  background-color: rgba(161, 252, 76, 0.822);
+  color: white;
+  margin-top: 20px;
+  transition: all .5s ease-in-out;
+}
+
+.dash_box .comment_Post:hover{
+  background-color: rgba(87, 126, 50, 0.829);
+  box-shadow: white 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.dash_box  p{
+  padding-top: 25px;
+}
+
+.slider{
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)) ,url(./images/banner2.jpg)no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+.signup_bg{
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,url(./images/banner2.jpg)no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* ------------------- BLOG POST IMAGE ---------------------------- */
+.card{
+  box-shadow: rgba(3, 141, 233, 0.144) 0px 10px 50px;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+.card:hover {
+  /* transform: translateY(-5px) scale(1.005) translateZ(0); */
+  transform: scale(1.05);
+  background-color: aliceblue;
+  color: #173161;
+  cursor: pointer;
+}
+.blogImage{
+  width: 90%;
+  height: 350px;
+  margin: auto;
+}
+.blogImage img{
+  width: 100%;
+  height: 100%;
+  
+  
+}
+.blogHeading{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.main_section{
+  background-color: azure;
+}
+.adminCard{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.updatedPost{
+  position : relative;
+}
+.updated_Card{
+  position : fixed;
+}
+.comment_box{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.comment_button{
+  background-color: #1f839c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.comment_icon{
+  width: 50px;
+ 
+}
+.comment_box:nth-child(odd){
+  background-color: azure;
+  
+}
+.not_approved{
+  width:25%;
+  float:right;
+  cursor:pointer;
+  background-color: #e73a51;
+}
+.not_approved:hover{
+  background-color: #b93246;
+}
+/*-------------------------------- Not found page ------------------------------- */
+.notfound {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  z-index: -1100;
+}
+.notfound h2{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: -26rem;
+  color: rgb(37, 111, 160);
+}
+.notfound p{
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  color: rgb(18, 42, 63);
+}
+.notfound-404 {
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10rem;
+  z-index: -100;
+ 
+}
+
+.notfound-404 h1 {
+  font-size: 26rem;
+  font-weight: 900;
+  opacity: .3;
+  color: #d34367;
+}
+.button_block {
+  background-color: #1f839c;
+  margin-top: 110px;
+  border-radius: 10px;
+}
+.button_block:hover{
+  opacity: .9;
+  
+}
+
+/*  -------------------------------------- EDIT COMMENT -------------------------------------- */
+
+
+/* -------------------------------- Footer section */
+footer {
+  padding: 20px;
+  
+}
+
+footer p {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .icons ul {
+  display: flex;
+  margin-top: 5px;
+  margin-left: -15px;
+}
+
+footer .icons ul li {
+  list-style: none;
+  margin: 0 auto;
+}
+
+footer i {
+  font-size: 1.7rem;
+  margin: 0 1rem;
+  transition: 0.5s ease;
+  color: #83b3b0;
+}
+
+footer i:hover {
+  color: #e73a51;
+  transition: all 1s;
+  animation: rotatefont 1s linear infinite alternate-reverse;
+}
+@keyframes rotatefont{
+  0%{
+    transform:scale(0.8);
+  }
+  100%{
+    transform: scale(1.3);
+  }
+}
+
+
+@media (max-width:750px) {
+  footer p {
+
+    font-size: 1.3rem;
+   
+  }
+}
