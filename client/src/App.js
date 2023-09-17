@@ -1,4 +1,7 @@
 import React,{useEffect} from 'react';
+
+
+
 import AdminLogin from './component/Admin/AdminLogin';
 import Navbar from './component/Admin/Navbar';
 import {Switch, Route} from "react-router-dom";
@@ -33,6 +36,11 @@ const App = () => {
     return (
         <> 
         <Provider store={store}>
+
+
+
+        
+
         <Navbar/>
          <Switch>
          <Route exact path="/" component={Posts} ></Route>
@@ -55,4 +63,10 @@ const App = () => {
     )
 }
 
-export default App
+
+
+
+
+
+
+export default App;
