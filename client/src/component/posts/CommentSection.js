@@ -142,7 +142,7 @@ const CommentSection = ({cid}) => {
                </div>
                
            ))}
-            {/* BUTTON FOR LORE MORE COMMENTS */}
+          
 
             {post.length >3 && !Math.max(post) ?  <p className="text-center py-3 " style={{cursor:"pointer"}} onClick={loadMore}>Show more Comment</p> : ""}
              
@@ -154,4 +154,4 @@ const CommentSection = ({cid}) => {
            
 }
 
-export default CommentSection
+export default CommentSection;

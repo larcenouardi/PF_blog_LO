@@ -120,4 +120,4 @@ const CommentEdit = () => {
     )
 }
 
-export default CommentEdit
+export default CommentEdit;
