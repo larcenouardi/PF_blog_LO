@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API = axios.create({baseURL : 'http://localhost:8000'});
+//const API = axios.create({baseURL : 'http://localhost:8000'});
+const API = axios.create({baseURL : 'https://blog-backend-qfs6.onrender.com'});
 
 // ---------------------- SET TOKEN TO HEADERS FOR BACK END AUTHENTICATION -------------------
 

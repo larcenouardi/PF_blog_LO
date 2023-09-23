@@ -5,7 +5,8 @@ import axios from "axios";
 import * as api from '../api/index';
 
 
-const url = 'http://localhost:8000';
+//const url = 'http://localhost:8000';
+const url = 'https://blog-backend-qfs6.onrender.com';
 
 export const loadUser = () => async dispatch => {
     if(localStorage.token){
