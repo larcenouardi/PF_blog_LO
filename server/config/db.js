@@ -5,7 +5,8 @@ const pool = new Pool({
   host : 'dpg-ck7fog08elhc73acpncg-a.oregon-postgres.render.com',
   database:'blog_ukdm',
   password:'CDmW1hCTIBO0bvyy2mmJNWUDxUehG8UA',
-  port:'5432'
+  port:'5432',
+  ssl: true,
 });
 
 module.exports = {
